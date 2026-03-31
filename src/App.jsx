@@ -32,24 +32,24 @@ try{
   console.log(e)
 }
 }
-
+const price=prices();
+const toolsDta=tools();
 function App() {
 const [card,setCard]=useState([]);
 
-const price=prices();
-const toolsDta=tools();
+
   return (
     <>
     <NavBar card={card}></NavBar>
     <Banner></Banner>
     <News></News>
-    <Suspense fallback={<div className='flex justify-center items-center py-20'><span className="loading loading-spinner text-success"></span></div>}>
+   
       <Main toolsDta={toolsDta} card={card} setCard={setCard}></Main>
-    </Suspense>
+   
     <Started></Started>
-    <Suspense fallback={<div className='text-center py-10'><span className="loading loading-spinner text-success"></span></div>}>
+   
       <PriceIng price={price}></PriceIng>
-    </Suspense>
+   
     <Transform></Transform>
     <Footer></Footer>
     <ToastContainer />
