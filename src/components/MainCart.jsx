@@ -8,7 +8,6 @@ const MainCart = ({ tool, card, setCard }) => {
 
   const [add, setAdd] = useState(false);
   const handelAddToCart = () => {
-
     const isFind = card.find((c) => c.id === tool.id);
     if (isFind) {
       toast.error(`${tool.name} is already in the cart!`);
@@ -27,7 +26,19 @@ const MainCart = ({ tool, card, setCard }) => {
           <img src={tool.image} alt="" />
         </div>
 
-        <div className="badge badge-primary">{tool.tag}</div>
+        <div
+          className={
+            tool.tag === "Popular"
+              ? "badge badge-secondary"
+              : tool.tag === "Best Seller"
+                ? "badge badge-info"
+                : tool.tag === "New"
+                  ? "badge badge-primary"
+                  : "badge"
+          }
+        >
+          {tool.tag}
+        </div>
       </div>
       <h1 className="text-2xl font-bold">{tool.name}</h1>
       <p className="text-gray-500">{tool.description}</p>

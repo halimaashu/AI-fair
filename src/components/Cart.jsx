@@ -1,11 +1,13 @@
 import React from "react";
 import { MdCloudUpload } from "react-icons/md";
+import { toast } from "react-toastify";
 
 const Cart = ({ card, setCard }) => {
-  const handleDelete=(c)=>{
+  const handleDelete=(id)=>{
     // console.log(c)
 
-    const newCart=card.filter(item=> item.id!==c.id)
+    const newCart=card.filter(item=> item.id!==id)
+    toast.error("Item deleted from cart")
     console.log(newCart ,"cart")
     setCard(newCart)
     
@@ -13,7 +15,7 @@ const Cart = ({ card, setCard }) => {
   const allPrice = card.reduce((total, item) => total + item.price, 0);
   const handleProceed = () => {
     setCard([]);
-    
+    toast.error("Proceeding to checkout...")
   };
   return (
     <div className="space-y-7">
@@ -47,7 +49,7 @@ const Cart = ({ card, setCard }) => {
                 </div>
 
                 <button
-                  onClick={ ()=>handleDelete(c)}
+                  onClick={ ()=>handleDelete(c.id)}
                   className="btn btn-ghost text-red-500 font-bold text-xl"
                 >
                   Remove

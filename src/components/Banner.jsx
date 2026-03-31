@@ -12,7 +12,7 @@ const Banner = () => {
         <div className="flex-1 space-y-6">
           <div className="max-w-[320px] flex items-center bg-blue-100  gap-2 p-2 rounded-full text-center  ">
             <img src={badge} alt="Badge" />
-            <span>New: AI-Powered Tools Available</span>
+            <span className="text-violet-500">New: AI-Powered Tools Available</span>
           </div>
           <h1 className="text-6xl font-black">
             Supercharge Your <br /> <span className="mt-10"> Digital Work flow</span>
