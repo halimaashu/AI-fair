@@ -42,6 +42,7 @@ const toolsDta=tools();
     <>
     <NavBar card={card}></NavBar>
     <Banner></Banner>
+    <News></News>
     
     </>
   )
