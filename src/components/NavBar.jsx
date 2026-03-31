@@ -2,7 +2,7 @@ import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
 import { IoMdMenu } from "react-icons/io";
 
-const NavBar = () => {
+const NavBar = ({ card }) => {
   return (
     <div className="navbar bg-base-100 shadow-sm p-3">
       <div className="navbar-start">
@@ -31,8 +31,11 @@ const NavBar = () => {
       </div>
       <div className="navbar-end gap-3  ">
         <div className="hidden md:block space-x-3">
-          <button className="btn btn-ghost btn-circle text-3xl font-bold">
-            <CiShoppingCart />
+          <button className="btn btn-ghost btn-circle ">
+            
+            {
+              card.length===0? <span className="text-3xl font-bold"><CiShoppingCart /></span> :<div className="relative"><span className="absolute -top-4 -right-2 text-white p-2 rounded-full inline bg-red-500 text-[10px]">{card.length}</span> <h1 className="text-4xl font-bold"><CiShoppingCart /></h1></div>
+            }
           </button>
           <button className=" btn ">login</button>
           <button className="btn btn-primary rounded-full ">

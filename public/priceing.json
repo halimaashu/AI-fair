@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "price": 0,
+    "currency": "USD",
+    "period": "monthly",
+    "description": "Perfect for individuals just getting started with web projects.",
+    "features": [
+      "1 User Account",
+      "5 Project Repositories",
+      "Community Support",
+      "Basic Deployment Tools",
+      "1GB Cloud Storage"
+    ],
+    "buttonText": "Get Started",
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "plan": "Pro",
+    "price": 29,
+    "currency": "USD",
+    "period": "monthly",
+    "description": "Ideal for professional developers and growing teams.",
+    "features": [
+      "5 User Accounts",
+      "Unlimited Project Repositories",
+      "Priority Email Support",
+      "Advanced CI/CD Integration",
+      "25GB Cloud Storage",
+      "Custom Domain Support"
+    ],
+    "buttonText": "Go Pro",
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "plan": "Enterprise",
+    "price": 99,
+    "currency": "USD",
+    "period": "monthly",
+    "description": "Scalable solutions for large organizations and high-traffic apps.",
+    "features": [
+      "Unlimited User Accounts",
+      "Dedicated Account Manager",
+      "24/7 Phone Support",
+      "SLA Guarantees",
+      "Unlimited Cloud Storage",
+      "Custom Security Audits"
+    ],
+    "buttonText": "Contact Sales",
+    "isPopular": false
+  }
+]

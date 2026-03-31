@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "image": "/writing_2327400 1.png",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "image": "/design-tool.png",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "image": "/cheamera.png",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline workflows easily.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "image": "/operation.png",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters easily.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "image": "/portfolio.png",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "image": "/social-media.png",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Professional video editing tools for creators and marketers.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/010/952/951/small/movie-film-editor-logo-design-video-editing-logo-concept-vector.jpg",
+    "features": [
+      "4K editing",
+      "Effects library",
+      "Audio tools"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "SEO Optimization Tool",
+    "description": "Boost your website ranking with advanced SEO tools.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "image": "https://static.vecteezy.com/system/resources/previews/020/168/962/non_2x/seo-search-engine-optimization-minimal-flat-logo-seo-logo-with-magnifying-glass-and-arrow-vector.jpg",
+    "features": [
+      "Keyword research",
+      "Site audit",
+      "Rank tracking"
+    ]
+  }
+]
