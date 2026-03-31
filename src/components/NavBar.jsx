@@ -34,7 +34,7 @@ const NavBar = ({ card }) => {
           <button className="btn btn-ghost btn-circle ">
             
             {
-              card.length===0? <span className="text-3xl font-bold"><CiShoppingCart /></span> :<div className="relative"><span className="absolute -top-4 -right-2 text-white p-2 rounded-full inline bg-red-500 text-[10px]">{card.length}</span> <h1 className="text-4xl font-bold"><CiShoppingCart /></h1></div>
+              card.length===0? <span className="text-3xl font-bold"><CiShoppingCart /></span> :<div className="relative"><span className="absolute -top-5 -right-3 text-white p-2 rounded-full inline bg-red-500 text-[10px]">{card.length}</span> <h1 className="text-4xl font-bold"><CiShoppingCart /></h1></div>
             }
           </button>
           <button className=" btn ">login</button>
@@ -55,7 +55,9 @@ const NavBar = ({ card }) => {
             >
              <li className="block md:hidden">
                  <button className="btn btn-ghost btn-circle text-3xl font-bold space-y-5">
-                <CiShoppingCart />
+                {
+              card.length===0? <span className="text-3xl font-bold"><CiShoppingCart /></span> :<div className="relative"><span className="absolute -top-5 -right-3 text-white p-2 rounded-full inline bg-red-500 text-[10px]">{card.length}</span> <h1 className="text-4xl font-bold"><CiShoppingCart /></h1></div>
+            }
               </button>
               <button className=" btn ">login</button>
               <button className="btn btn-primary rounded-full ">
