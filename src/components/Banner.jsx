@@ -10,10 +10,10 @@ const Banner = () => {
           <img src={banner} className="w-full   rounded-lg shadow-2xl" />
         </div>
         <div className="flex-1 space-y-6">
-          <h1 className="flex items-center bg-blue-100  gap-2 p-2 rounded-full text-center  ">
+          <div className="max-w-[320px] flex items-center bg-blue-100  gap-2 p-2 rounded-full text-center  ">
             <img src={badge} alt="Badge" />
             <span>New: AI-Powered Tools Available</span>
-          </h1>
+          </div>
           <h1 className="text-6xl font-black">
             Supercharge Your <br /> <span className="mt-10"> Digital Work flow</span>
           </h1>
