@@ -1,10 +1,3 @@
-Make a beutyfull redme
-Name of your Project
-A little Description
-Technology that you use
-3 Features about your project.
-
-
 
 ***The AI Tools Fair 2026
 **The time is a period thad the all of the people use ai tool 
