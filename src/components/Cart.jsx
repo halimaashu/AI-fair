@@ -42,15 +42,19 @@ const Cart = ({ card, setCard }) => {
                     className="w-[75px] h-[75px]"
                     alt={c.name}
                   />
-                  <div className="">
+                  <div className="flex-1">
                     <h1 className="text-2xl font-bold">{c.name}</h1>
                     <h1 className="text-gray-600">{c.description}</h1>
                   </div>
                 </div>
+                <div className="flex-1">
+                  <h1 className="text-3xl font-bold ">price</h1>
+                  <h1 className="text-2xl font-bold">{c.price} <span className="text-xl font-semibold textgray-500 ">/{c.period}</span> </h1>
+                </div>
 
                 <button
                   onClick={ ()=>handleDelete(c.id)}
-                  className="btn btn-ghost text-red-500 font-bold text-xl"
+                  className="btn btn-ghost text-red-500 font-bold text-xl flex-1 text-right"
                 >
                   Remove
                 </button>
