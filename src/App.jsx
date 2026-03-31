@@ -43,6 +43,9 @@ const toolsDta=tools();
     <NavBar card={card}></NavBar>
     <Banner></Banner>
     <News></News>
+    <Suspense fallback={<div className='flex justify-center items-center py-20'><span className="loading loading-spinner text-success"></span></div>}>
+      <Main toolsDta={toolsDta} card={card} setCard={setCard}></Main>
+    </Suspense>
     
     </>
   )
