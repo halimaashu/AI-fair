@@ -34,29 +34,29 @@ const Cart = ({ card, setCard }) => {
             <div key={c.id} className="space-y-5">
               <div
                 
-                className="rounded-lg p-5  flex justify-between shadow-md items-center  "
+                className="rounded-lg p-5  flex justify-between shadow-md items-center gap-5 "
               >
-                <div className="flex gap-2">
+                <div className="flex gap-3 flex-1">
                   <img
                     src={c.image}
                     className="w-[75px] h-[75px]"
                     alt={c.name}
                   />
-                  <div className="flex-1">
+                  <div className="">
                     <h1 className="text-2xl font-bold">{c.name}</h1>
                     <h1 className="text-gray-600">{c.description}</h1>
                   </div>
                 </div>
-                <div className="flex-1">
-                  <h1 className="text-3xl font-bold ">price</h1>
-                  <h1 className="text-2xl font-bold">{c.price} <span className="text-xl font-semibold textgray-500 ">/{c.period}</span> </h1>
+                <div className="flex-1 ml-4 text-center">
+                  
+                  <h1 className="text-3xl font-bold">$ {c.price} <span className="text-xl font-semibold tex-gray-500 ">/{c.period}</span> </h1>
                 </div>
 
                 <button
                   onClick={ ()=>handleDelete(c.id)}
-                  className="btn btn-ghost text-red-500 font-bold text-xl flex-1 text-right"
+                  className="btn btn-ghost text-red-500 font-bold text-xl flex-1 text-right flex justify-end items-end max-w-[150px]"
                 >
-                  Remove
+                  Remove 
                 </button>
               </div>
             </div>
