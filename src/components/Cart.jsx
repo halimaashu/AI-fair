@@ -24,7 +24,7 @@ const Cart = ({ card, setCard }) => {
       {card.length === 0 ? (
         <div className="py-20 text-center bg-base-200 flex justify-between items-center flex-col">
           <h1 className="text-4xl text-red-500 ">Your cart is empty please 
-            added some items in products tab
+            added some items in products tabs
           </h1>
           <h1 className="text-center text-9xl font-bold mt-10"><MdCloudUpload /></h1>
         </div>

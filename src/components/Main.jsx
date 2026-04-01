@@ -1,6 +1,7 @@
 import React, { use, useState } from "react";
 import MainCart from "./MainCart";
-import Cart from "./cart";
+import Cart from "./Cart";
+
 
 const Main = ({ toolsDta, card, setCard }) => {
 
@@ -25,7 +26,7 @@ const handleCartTabChange = () => {
         designedto boost your productivity and creativity.
       </p>
       {/* tabs */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-15">
         {/* name of each tab group should be unique */}
         <div className="tabs  gap-4">
           <input
