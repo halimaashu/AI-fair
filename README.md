@@ -1,16 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  REDME.md(ashik)
+## 📌 Project Name
+**AI-tools-fair**
 
-Currently, two official plugins are available:
+🌟This project showcases different AI tools and their uses, such as chatbots, image generation, and automation tools. It also explains Ethical AI (EAI), focusing on the responsible and proper use of artificial intelligence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🛠️ Technologies to Use
+- Reactjs
+- Tailwind CSS
+- Context API / State Management
+- HTML-5
+- CSS_3
+- CSS-JS (ES-6)
+- React Icons
+- Toistify!
+- daisyUI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- All AI Tools in one site
+- AI Tools Showcase
+- Interactive User Interface
+- Category-Based Navigation
+
+
+## 🚀 Features
+
+- 💬 1. Real-time Chat
+- 📞 2. Voice Calling
+- 🎥 3. Video Calling
+- Sorting System :
+(1)sort by title
+ (2)sort by time
+- Real time Call Logs
+- Smart Dassboard (paichart ) system
+
+
+## Demo
+
+live link :
+
+https://ai-tools-fair-2026.netlify.app/
+
+## Authors
+
+- MD. Ashikur Rahman (Ashik)
+
